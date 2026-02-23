@@ -1,4 +1,4 @@
-# Receita total por produtos
+#Receita total por produtos
 SELECT pr.produto, Sum(qty*preco) as receita_total
 FROM vendas ve
 JOIN produtos pr
