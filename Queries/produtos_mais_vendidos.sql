@@ -5,3 +5,4 @@ JOIN produtos pr
 ON pr.codigo = ve.codigo
 GROUP BY pr.produto
 ORDER BY unidades_vendidas DESC
+LIMIT 10
